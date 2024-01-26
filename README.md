@@ -29,29 +29,29 @@ The solution uses the A* algorithm with Manhattan distance as a heuristic. The k
 ### Input File Format
 The `input.txt` file should contain 18 lines, 9 for the start state (`n`) and 9 for the goal state (`m`), structured as follows:
 
-n n n
-n n n
-n n n
+n n n<br>
+n n n<br>
+n n n<br>
 
-n n n
-n n n
-n n n
+n n n<br>
+n n n<br>
+n n n<br>
 
-n n n
-n n n
-n n n
+n n n<br>
+n n n<br>
+n n n<br>
 
-m m m
-m m m
-m m m
+m m m<br>
+m m m<br>
+m m m<br>
 
-m m m
-m m m
-m m m
+m m m<br>
+m m m<br>
+m m m<br>
 
-m m m
-m m m
-m m m
+m m m<br>
+m m m<br>
+m m m<br>
 
 #### Symbols Explanation
 - `n`: Represents a digit in the start state of the 3x3x3 cube.
@@ -66,34 +66,34 @@ The `output.txt` file will contain:
 - Solution path `A`, represented by characters {E, W, N, S, U, D} for East, West, North, South, Up, and Down movements.
 - Sequence of `f(n)` values for the nodes along the solution path.
 
-n n n
-n n n
-n n n
+n n n<br>
+n n n<br>
+n n n<br>
 
-n n n
-n n n
-n n n
+n n n<br>
+n n n<br>
+n n n<br>
 
-n n n
-n n n
-n n n
+n n n<br>
+n n n<br>
+n n n<br>
 
-m m m
-m m m
-m m m
+m m m<br>
+m m m<br>
+m m m<br>
 
-m m m
-m m m
-m m m
+m m m<br>
+m m m<br>
+m m m<br>
 
-m m m
-m m m
-m m m
+m m m<br>
+m m m<br>
+m m m<br>
 
-d
-N
-A A A A A A A
-f f f f f f f f
+d<br>
+N<br>
+A A A A A A A<br>
+f f f f f f f f<br>
 
 #### Symbols Explanation
 - `n`: Represents a digit in the start state of the 3x3x3 cube.
