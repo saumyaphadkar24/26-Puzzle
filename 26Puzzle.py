@@ -1,4 +1,3 @@
-# 26 Puzzle 
 
 import numpy as np
 import heapq
