@@ -1,11 +1,4 @@
-'''
 
-AI Assignment - 26 Puzzle Problem
-
-sp7778 - Saumya Parag Phadkar
-si2320 - Swaran Iyappan
-
-'''
 import numpy as np
 import heapq
 
